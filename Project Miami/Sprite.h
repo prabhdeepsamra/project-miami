@@ -14,6 +14,7 @@ private:
     GLfloat* uvs;
 public:
     Sprite();
+    Sprite(const char * imagepath);
     ~Sprite();
 };
 
